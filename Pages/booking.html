@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment#06</title>
+    <style>
+      div {
+        display: flex;
+      }
+      nav {
+        height: 297px;
+        float: left;
+        background-color: aqua;
+        display: inline-flex;
+        margin: 10px;
+      }
+      nav a {
+        text-decoration: none;
+        color: rgb(5, 5, 5);
+        font-size: 20px;
+        font-weight: bold;
+      }
+
+      nav ul {
+        list-style-type: none;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+      .booking {
+        color: red;
+      }
+
+      table td {
+        padding: 10px;
+      }
+      .green {
+        background-color: green;
+        margin: 5px;
+        padding: 5px 10px;
+      }
+
+      .red {
+        background-color: red;
+        margin: 5px;
+        padding: 5px 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <nav>
+        <ul>
+          <li><a href="./Pages/Notification.html">Notification</a></li>
+          <li><a href="./Pages/Message.html">Message</a></li>
+          <li><a href="./Pages/addvehicle.html">Add Vehicle</a></li>
+          <li><a href="#" class="booking">Booking</a></li>
+          <li><a href="./Pages/user.html">User</a></li>
+          <li><a href="./Pages/vehicles.html">Vehicle</a></li>
+        </ul>
+      </nav>
+      <section>
+        <h1>Booking Details</h1>
+        <table border="1px" style="border-collapse: collapse">
+          <thead style="background-color: greenyellow">
+            <tr>
+              <td>User</td>
+              <td>Start Date</td>
+              <td>End Date</td>
+              <td>Pick Time</td>
+              <td>Package</td>
+              <td>Vehicle Catogery</td>
+              <td>No Vehicle</td>
+              <td>Book Date</td>
+              <td>Status</td>
+              <td>Confirm</td>
+              <td>Delete</td>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr>
+              <td>Shainee Dilwita</td>
+              <td>2019-05-17</td>
+              <td>2019-05-23</td>
+              <td>11:59</td>
+              <td>daily</td>
+              <td>car</td>
+              <td>1</td>
+              <td>2019-05-21</td>
+              <td>Pending</td>
+              <td><button class="green">Confirm</button></td>
+              <td><button class="red">Delete</button></td>
+            </tr>
+            <tr>
+              <td>Shainee Dilwita</td>
+              <td>2019-05-18</td>
+              <td>2019-05-21</td>
+              <td>11:59</td>
+              <td>daily</td>
+              <td>car</td>
+              <td>2</td>
+              <td>2019-05-21</td>
+              <td>Pending</td>
+              <td><button class="green">Confirm</button></td>
+              <td><button class="red">Delete</button></td>
+            </tr>
+            <tr>
+              <td>Shainee Farmando</td>
+              <td>2019-12-05</td>
+              <td>2019-12-05</td>
+              <td>04:00</td>
+              <td>daily</td>
+              <td>car</td>
+              <td>1</td>
+              <td>2019-05-21</td>
+              <td>Pending</td>
+              <td><button class="green">Confirm</button></td>
+              <td><button class="red">Delete</button></td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+    </div>
+  </body>
+</html>
